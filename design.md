@@ -1,8 +1,6 @@
 # The history A&B — Design
 
-> Starter design brief. Replace this content with the app you're building before writing any UI.
-> Keep it short and concrete — it's the single source of truth for palette, typography, pages,
-> screens, and flows across web, mobile, and desktop.
+Direção atual aprovada: mesclagem de roxo e azul-escuro em todo o site, preservando modernidade, elegância, layout, imagens e funcionalidades.
 
 Galeria e linha do tempo pessoal, web responsiva, em português e sem login. Editorial afetivo e contemporâneo. Fotos, datas, títulos e textos editáveis, armazenados apenas neste navegador via IndexedDB. Nenhuma funcionalidade além da proposta aprovada.
 
@@ -15,17 +13,18 @@ One token set, consumed per platform:
 
 | Token | Light | Dark | Use |
 |-------|-------|------|-----|
-| primary | #5344BF | #5344BF | Buttons, active tab, accents |
-| background | #FAF9FE | #FAF9FE | Page/screen background |
-| card | #FFFFFF | #1A1A1A | Cards, surfaces |
-| foreground | #171717 | #FAFAFA | Primary text |
-| mutedForeground | #737373 | #A3A3A3 | Secondary text |
-| border | #E5E5E5 | #262626 | Hairlines |
-| destructive | #DC2626 | #EF4444 | Delete / errors |
+| primary | #7654D9 | #7654D9 | Buttons, active tab, accents |
+| background | #0D1428 | #0D1428 | Navy foundation with deep purple ambient gradients |
+| card | #1B2039 | #1B2039 | Navy-purple surfaces |
+| foreground | #F0EDFA | #F0EDFA | Primary text |
+| mutedForeground | #B5AFCB | #B5AFCB | Secondary text |
+| border | #38334F | #38334F | Subtle violet hairlines |
+| destructive | #A73354 | #A73354 | Delete / errors |
 
 ## Typography
 
-Poppins 400, 500, 600, 700 para interface e títulos; Georgia itálica para acentos editoriais. Fontes locais em public/fonts. Azul índigo e roxo pontuais sobre branco-lavanda. Sidebar 240px, conteúdo com respiro de 44px, hero horizontal fotográfico escuro e galeria em três colunas com alturas variadas. Bordas discretas, raios de 12–18px.
+Poppins 400, 500, 600, 700 para interface e títulos; Georgia itálica para acentos editoriais. Fontes locais em public/fonts. Base azul-marinho #0D1428 mesclada com roxo profundo #241936 em gradientes suaves. Sidebar escura, cartões azul-roxo, botões roxos com toques índigo. Texto branco-lavanda e secundários claros para contraste. Hero com fotografia original e sobreposição azul-roxa. Todos os estados, filtros, formulário, modal, exclusão e notificação seguem a mesma paleta. Sem alteração de estrutura ou dados.
+Sidebar 240px, conteúdo com respiro de 44px, hero horizontal fotográfico e galeria em três colunas com alturas variadas. Bordas discretas, raios de 12–18px.
 
 ## Pages & Screens
 
